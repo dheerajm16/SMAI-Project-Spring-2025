@@ -13,6 +13,7 @@ This repository contains a machine learning project to predict NBA player injuri
 - **train.py**: Downloads the dataset, preprocesses it, trains multiple models (Logistic Regression, Decision Tree, Random Forest, XGBoost, Bagging), and saves model weights and test data split to disk.
 - **eval.py**: Loads model weights and test data, evaluates each model, and reports classification metrics (precision, recall, F1-score) and confusion matrices.
 - **infer.py**: Loads the model weights and predicts injury status for a user-defined input row.
+- **NBA_Injuries_Analysis_Clean_(1).ipynb**: Google Colab File 
 
 ## Dataset
 The dataset (`injuries.csv`) is hosted on Google Drive:
